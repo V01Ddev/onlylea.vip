@@ -22,6 +22,10 @@ body {
   transition: 2s;
 }
 
+.logo {
+  width: 30vw;
+}
+
 .mobile-note {
   display: none;
 }
@@ -54,7 +58,7 @@ li {
   flex-grow: 100%;
 }
 
-img {
+.the-images {
   width: 100%;
   height: auto;
   max-height: 25vw;
@@ -62,7 +66,7 @@ img {
   transition: transform 0.2s;
 }
 
-img:hover, img:active {
+.the-images:hover, .the-images:active {
   transform: scale(1.5);
 }
 
@@ -113,13 +117,13 @@ a {
     margin-top: 100vw;
     margin-bottom: 100vw;
   }
-  img {
+  .the-images {
     width: 50%;
     height: auto;
     max-height: 100vw;
     min-width: 0;
   }
-  img:hover, img:active {
+  .the-images:hover, .the-images:active {
     transform: scale(1.5);
   }
 }
