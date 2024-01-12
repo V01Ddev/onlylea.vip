@@ -6,7 +6,6 @@ body {
   border: 0;
 }
 
-/* Styline the Heading of Image Gallery */
 .landing {
   display: flex;
   flex-grow: 1;
