@@ -91,6 +91,7 @@ a {
   body {
     padding: 10px;
   }
+
   .landing {
     display: flex;
     flex-grow: 1;
@@ -104,13 +105,16 @@ a {
     margin-top: 100vw;
     margin-bottom: 100vw;
   }
+
   .mobile-note {
     display: inherit;
   }
+
   section {
     margin-top: 100vw;
     margin-bottom: 100vw;
   }
+
   .the-images {
     width: 50%;
     height: auto;
@@ -118,5 +122,3 @@ a {
     min-width: 0;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
