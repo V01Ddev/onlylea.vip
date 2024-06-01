@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat;
 
     filter: blur(10px);
-    transition: 2s;
+    transition: 1s;
 }
 
 .logo {
@@ -67,12 +67,6 @@ li {
     height: auto;
     max-height: 25vw;
     min-width: 0;
-
-    transition: transform .2s;
-}
-
-.the-images:hover, .the-images:active {
-    transform: scale(1.5);
 }
 
 @mixin contact {
@@ -135,9 +129,5 @@ a {
         height: auto;
         max-height: 100vw;
         min-width: 0;
-    }
-
-    .the-images:hover, .the-images:active {
-        transform: scale(1.5);
     }
 }
