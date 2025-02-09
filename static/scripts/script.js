@@ -26,7 +26,7 @@ $(document).ready(async function() {
     $('#landing-id').css('filter', 'blur(0)');
     await loadData();
 
-    /*
+        /*
             $("<label>", {class: "page-label"})
                 .append($("<h2>").text(page_no))
                 .append($("<img>", {src: "/static/tmp_files/thm/" + id + ".png"}))
@@ -38,7 +38,13 @@ $(document).ready(async function() {
     for (var i=0; i<sections.length; i++){
         var sectionClass = sections[i]+"-section"
         $("<section>", {class: sectionClass}).appendTo(".content-section");
-        $("<h3>").text(sections[i]).appendTo(sectionClass);
-        console.log(sections[i]);
+        $("<h3>").text(sections[i]+" pics").appendTo("." + sectionClass);
+        $("<ul>", {class: sections[i]+"-ul"}).appendTo("." + sectionClass)
+
+        for (var j=0; j<images[i].length; j++){
+            console.log(images[i][j]);
+            var img_src="static/src/" + sections[i] + "/" + images[i][j];
+            $("<li>").append($("<img>", {class: "the-images", src:img_src})).appendTo("."+sections[i]+"-ul");
+        }
     }
-});
+});                                                                                         
