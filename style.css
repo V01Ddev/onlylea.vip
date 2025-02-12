@@ -18,7 +18,7 @@ body {
     align-items: center;
     height: 50vw;
     color: #DFDFDF;
-    background-image: url("../src/Background.jpg");
+    background-image: url("./src/Background.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     filter: blur(10px);
