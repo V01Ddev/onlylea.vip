@@ -87,22 +87,13 @@ a {
 }
 
 @media (max-width: 500px) {
-    body {
-        padding: 10px;
+
+    html {
+        font-size: unset;
     }
 
-    .landing {
-        display: flex;
-        flex-grow: 1;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: #DFDFDF;
-        background-image: url("./src/Background.jpg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        margin-top: 100vw;
-        margin-bottom: 100vw;
+    body {
+        padding: 10px;
     }
 
     .mobile-note {
